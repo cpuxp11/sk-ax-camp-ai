@@ -258,6 +258,29 @@ function renderHome() {
 
       ${continueHtml}
 
+      <div style="background: #FFFFFF; border: 2px solid #E4002B; border-radius: 16px; padding: 36px 40px; margin: 40px 0;">
+        <h2 style="color: #E4002B; margin-top: 0; font-size: 26px; margin-bottom: 24px;">오늘 우리가 할 것</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr style="border-bottom: 1px solid #F3F4F6;">
+            <td style="padding: 16px 12px; font-size: 18px; font-weight: 700; color: #E4002B; white-space: nowrap; vertical-align: top;">1교시</td>
+            <td style="padding: 16px 12px; font-size: 18px; line-height: 1.7;">AI란? + 왜 Gemini? + <strong>트로트 노래 만들기</strong></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #F3F4F6;">
+            <td style="padding: 16px 12px; font-size: 18px; font-weight: 700; color: #E4002B; white-space: nowrap; vertical-align: top;">2교시</td>
+            <td style="padding: 16px 12px; font-size: 18px; line-height: 1.7;">나만의 AI 비서(Gem) 만들기 + <strong>회고록 작가</strong></td>
+          </tr>
+          <tr style="border-bottom: 1px solid #F3F4F6;">
+            <td style="padding: 16px 12px; font-size: 18px; font-weight: 700; color: #E4002B; white-space: nowrap; vertical-align: top;">3교시</td>
+            <td style="padding: 16px 12px; font-size: 18px; line-height: 1.7;">AI Studio로 <strong>와이프 번역기, 골프 캐디, 주가·부동산 분석기</strong></td>
+          </tr>
+          <tr>
+            <td style="padding: 16px 12px; font-size: 18px; font-weight: 700; color: #E4002B; white-space: nowrap; vertical-align: top;">4교시</td>
+            <td style="padding: 16px 12px; font-size: 18px; line-height: 1.7;">Q&A + 마무리</td>
+          </tr>
+        </table>
+        <p style="margin: 24px 0 0 0; padding-top: 20px; border-top: 2px solid #E4002B; font-size: 20px; font-weight: 700; color: #1F2937; text-align: center;">코딩 한 줄 안 하고, 7개의 AI 도구를 만들어 갑니다.</p>
+      </div>
+
       <div class="timeline-section">
         <h2 class="timeline-label">오늘의 시간표</h2>
         ${timelineHtml}
