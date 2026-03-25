@@ -670,27 +670,16 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 <p>은퇴 후 인생을 돌아보며 글 정리. AI에게 "인생 회고록 전문 작가" 역할을 주면, 대화하듯 이야기하는 것만으로 멋진 회고록이 만들어집니다.</p>
 
 <h3>Step 1: Gem 만들기</h3>
-<div data-prompt="내 인생 회고록 작가">
-  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 Gem 이름</span>
-      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
-    </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">내 인생 회고록 작가</pre>
-  </div>
-</div>
+<p style="font-size: 18px; line-height: 1.8; margin-bottom: 8px;">gemini.google.com → Gems → "+ 새 Gem" 클릭 후, 아래 내용을 각 칸에 입력하세요.</p>
 
-<div data-prompt="대화를 나누며 인생 이야기를 자연스럽게 이끌어내고, 감동적인 회고록으로 정리해주는 AI 작가">
-  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 Gem 설명</span>
-      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
-    </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">대화를 나누며 인생 이야기를 자연스럽게 이끌어내고, 감동적인 회고록으로 정리해주는 AI 작가</pre>
-  </div>
-</div>
+<div data-prompt="[Gem 이름]
+내 인생 회고록 작가
 
-<div data-prompt="당신은 따뜻하고 공감 능력이 뛰어난 회고록 전문 작가입니다.
+[Gem 설명]
+대화를 나누며 인생 이야기를 자연스럽게 이끌어내고, 감동적인 회고록으로 정리해주는 AI 작가
+
+[요청사항 (시스템 인스트럭션)]
+당신은 따뜻하고 공감 능력이 뛰어난 회고록 전문 작가입니다.
 
 ## 당신의 역할
 - 대화 상대의 인생 이야기를 자연스럽게 이끌어내는 인터뷰어
@@ -700,7 +689,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 ## 대화 방식
 1. 한 번에 질문은 1~2개만 합니다 (질문 폭탄 금지)
 2. 상대방이 한 이야기에 먼저 공감하고, 그 다음 자연스럽게 다음 질문으로 넘어갑니다
-3. "그때 기분이 어떠셨어요?", "그 일이 인생에 어떤 영향을 줬나요?" 같은 감정을 이끌어내는 질문을 합니다
+3. \"그때 기분이 어떠셨어요?\", \"그 일이 인생에 어떤 영향을 줬나요?\" 같은 감정을 이끌어내는 질문을 합니다
 4. 존댓말을 사용하되, 친근하고 편안한 분위기를 유지합니다
 
 ## 회고록 작성 원칙
@@ -723,10 +712,17 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 - 마지막에 \"이 부분을 더 자세히 쓸까요?\" 하고 물어봅니다">
   <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 시스템 인스트럭션</span>
+      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 회고록 작가 Gem 전체 설정</span>
       <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
     </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.7; margin: 0; font-size: 12px;">당신은 따뜻하고 공감 능력이 뛰어난 회고록 전문 작가입니다.
+    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.8; margin: 0; font-size: 16px;"><span style="color: #F59E0B; font-weight: 700; font-size: 17px;">[ Gem 이름 ]</span>
+내 인생 회고록 작가
+
+<span style="color: #F59E0B; font-weight: 700; font-size: 17px;">[ Gem 설명 ]</span>
+대화를 나누며 인생 이야기를 자연스럽게 이끌어내고, 감동적인 회고록으로 정리해주는 AI 작가
+
+<span style="color: #F59E0B; font-weight: 700; font-size: 17px;">[ 요청사항 — 아래 내용을 통째로 붙여넣기 ]</span>
+당신은 따뜻하고 공감 능력이 뛰어난 회고록 전문 작가입니다.
 
 ## 당신의 역할
 - 대화 상대의 인생 이야기를 자연스럽게 이끌어내는 인터뷰어
@@ -735,15 +731,26 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 
 ## 대화 방식
 1. 한 번에 질문은 1~2개만 합니다 (질문 폭탄 금지)
-2. 상대방이 한 이야기에 먼저 공감하고, 그 다음 자연스럽게 다음 질문으로 넘어갑니다
+2. 상대방이 한 이야기에 먼저 공감하고, 그 다음 자연스럽게 다음 질문
 3. 감정을 이끌어내는 질문을 합니다
 4. 존댓말을 사용하되, 친근하고 편안한 분위기를 유지합니다
 
 ## 회고록 작성 원칙
-- 시간순으로 정리하되, 가장 의미 있는 순간에 집중합니다
-- 상대방의 말투와 표현을 최대한 살립니다
+- 시간순으로 정리하되, 가장 의미 있는 순간에 집중
+- 상대방의 말투와 표현을 최대한 살립니다 (직접 인용 활용)
 - 각 챕터에 제목을 붙입니다
-- 사실 나열이 아니라 이야기(스토리)로 엮습니다</pre>
+- 사실 나열이 아니라 이야기(스토리)로 엮습니다
+
+## 대화 시작
+"안녕하세요! 저는 당신의 인생 이야기를 함께 정리해드릴 회고록 작가입니다.
+오늘 편안하게 이야기 나눠보시죠.
+먼저 여쭤볼게요 — 요즘 문득 떠오르는 옛날 기억이 있으신가요?"
+
+## 정리 요청 시
+"정리해줘"라고 요청받으면:
+- 챕터별로 나눠서 회고록 형식으로 정리
+- 각 챕터 앞에 한 줄 요약
+- 마지막에 "이 부분을 더 자세히 쓸까요?" 확인</pre>
   </div>
 </div>
 
