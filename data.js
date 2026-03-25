@@ -856,7 +856,38 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 <div style="background: #FFF0F0; border-left: 4px solid #E4002B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
   <h3 style="margin-top: 0; color: #E4002B; font-size: 19px; margin-bottom: 10px;">Step 3</h3>
   <p style="margin: 0; font-size: 18px; line-height: 1.8;">"Create new prompt" 클릭 → System Instruction에 역할 적기 → 끝!</p>
-</div>`
+</div>
+
+<h3>오늘 만들 4가지 도구</h3>
+<p style="font-size: 18px; line-height: 1.8;">이제부터 AI Studio에서 실생활에 바로 써먹을 수 있는 도구 4개를 직접 만들어봅니다.</p>
+<table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
+  <tr style="background: #F9FAFB;">
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">#</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">도구</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">한마디</td>
+  </tr>
+  <tr>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">1</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">와이프 번역기</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">"괜찮아"의 진짜 뜻을 알려줌</td>
+  </tr>
+  <tr style="background: #F9FAFB;">
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">2</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">AI 골프 캐디</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">코스별 맞춤 공략법</td>
+  </tr>
+  <tr>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">3</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">주가 파악 AI</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">종목 분석을 쉬운 말로</td>
+  </tr>
+  <tr style="background: #F9FAFB;">
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">4</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">부동산 분석기</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px;">동네 부동산처럼 호재/악재 설명</td>
+  </tr>
+</table>
+<p style="font-size: 18px; line-height: 1.8;">전부 <strong>말로 설명하면 끝</strong>입니다. 코딩 필요 없습니다. 첫 번째부터 시작합시다!</p>`
         },
         {
           id: "ch03-clip03",
@@ -865,7 +896,8 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
           duration: "~15분",
           content: `<h2>실습 1: 와이프 번역기 🗣️➡️💭</h2>
 <h3>상황</h3>
-<p>와이프가 "괜찮아"라고 했는데... 진짜 괜찮은 건지 모르겠다</p>
+<p style="font-size: 18px; line-height: 1.8;">와이프가 "괜찮아"라고 했는데... 진짜 괜찮은 건지 모르겠다. 이런 경험 다들 있으시죠?</p>
+<p style="font-size: 18px; line-height: 1.8;">AI Studio의 System Instruction에 아래 내용을 붙여넣으면, 배우자의 말을 "번역"해주는 AI가 만들어집니다.</p>
 
 <div data-prompt="당신은 \"부부 소통 전문 번역기\"입니다. 30년 이상의 결혼 생활 경험을 가진 부부 상담 전문가 역할을 합니다.
 
