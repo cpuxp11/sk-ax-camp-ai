@@ -420,9 +420,8 @@ body.nav-hidden .sidebar-chapter-header {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.95);
   line-height: 1.4;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: keep-all;
 }
 
 .sidebar-chapter-header > div:not(.ch-label) {

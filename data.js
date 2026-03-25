@@ -316,7 +316,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 <p>→ 뭔가 나오긴 하는데... 내가 원하는 느낌은 아니죠?</p>
 
 <h3>4원칙을 적용하면 이렇게 달라집니다</h3>
-<div data-prompt="너는 감성적인 발라드 작곡가야. (← 역할)
+<div data-prompt="너는 신나는 트로트 작곡가야. (← 역할)
 
 나는 올해로 결혼 40주년이야.
 평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
@@ -324,7 +324,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 좋아하는 계절은 가을이야. (← 맥락)
 
 아래 조건으로 만들어줘:
-- 장르: 따뜻한 발라드
+- 장르: 신나는 트로트
 - 길이: 1분 정도
 - 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
 - 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워 (← 형식)
@@ -336,7 +336,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
       <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 4원칙 프롬프트</span>
       <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
     </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">너는 감성적인 발라드 작곡가야. (← 역할)
+    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">너는 신나는 트로트 작곡가야. (← 역할)
 
 나는 올해로 결혼 40주년이야.
 평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
@@ -344,7 +344,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 좋아하는 계절은 가을이야. (← 맥락)
 
 아래 조건으로 만들어줘:
-- 장르: 따뜻한 발라드
+- 장르: 신나는 트로트
 - 길이: 1분 정도
 - 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
 - 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워 (← 형식)
@@ -352,11 +352,6 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 먼저 가사만 보여줘. 내가 확인하고 수정할 부분을 알려줄게.
 가사가 괜찮으면 그 다음에 노래로 만들어줘. (← 단계)</pre>
   </div>
-</div>
-
-<div style="background: #FFF8E1; border-left: 4px solid #F59E0B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #F59E0B; font-size: 19px; margin-bottom: 10px;">무료 사용 팁</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;">무료 버전은 하루에 쓸 수 있는 횟수가 정해져 있습니다. 한 번에 잘 정리해서 보내면 횟수를 아낄 수 있어요.</p>
 </div>`
         },
         {
@@ -374,7 +369,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
   <tr>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">역할(Role)</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"너는 OO 전문가야"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"감성적인 발라드 작곡가야"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"신나는 트로트 작곡가야"</td>
   </tr>
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">맥락(Context)</td>
@@ -384,7 +379,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
   <tr>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">형식(Format)</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"이런 모양으로"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"발라드, 1분, 2절, 키워드"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"트로트, 1분, 2절, 키워드"</td>
   </tr>
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">단계(Step)</td>
