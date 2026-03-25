@@ -486,78 +486,6 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
       clips: [
         {
           id: "ch02-clip01",
-          title: "나는 누구일까요? 이미지 게임",
-          type: "실습",
-          duration: "~20분",
-          content: `<h2>AI로 이미지 만들기 — '나는 누구일까요?' 게임</h2>
-<h3>게임 방법</h3>
-<ol style="line-height: 1.9; font-size: 19px;">
-  <li>자기 묘사 프롬프트 작성 (이름 빼고)</li>
-  <li>제미나이가 이미지 생성</li>
-  <li>다른 분들이 맞추기</li>
-</ol>
-
-<div data-prompt="다음 설명에 해당하는 한국 남성의 캐릭터 일러스트를 그려줘.
-만화 스타일로 따뜻하고 친근한 느낌으로 부탁해.
-
-- 60대 중반, 건강한 체격
-- 골프를 좋아해서 골프 모자를 쓰고 있음
-- 왼손에 커피잔을 들고 있음
-- 배경에 산이 보이는 골프장
-- 항상 웃는 표정, 눈이 초승달 모양
-- 특기: 그릴에서 고기 굽기">
-  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 프롬프트 예시</span>
-      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
-    </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">다음 설명에 해당하는 한국 남성의 캐릭터 일러스트를 그려줘.
-만화 스타일로 따뜻하고 친근한 느낌으로 부탁해.
-
-- 60대 중반, 건강한 체격
-- 골프를 좋아해서 골프 모자를 쓰고 있음
-- 왼손에 커피잔을 들고 있음
-- 배경에 산이 보이는 골프장
-- 항상 웃는 표정, 눈이 초승달 모양
-- 특기: 그릴에서 고기 굽기</pre>
-  </div>
-</div>
-
-<h3>나만의 프롬프트 만들어보기</h3>
-<table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">넣을 내용</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">예시</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">외모 특징</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">안경, 수염, 체격, 머리 스타일</td>
-  </tr>
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">좋아하는 활동</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">골프, 낚시, 등산, 바둑, 요리</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">소품</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">골프채, 낚싯대, 커피잔, 책</td>
-  </tr>
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">배경</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">골프장, 바닷가, 서재, 정원</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">스타일</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">만화, 수채화, 유화, 캐리커처</td>
-  </tr>
-</table>
-
-<div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">게임 진행</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;">각자 만든 이미지를 화면에 띄우고, 다같이 '이거 누구야?' 맞춰봅시다! 가장 본인을 잘 표현한 분에게 박수를! 👏</p>
-</div>`
-        },
-        {
-          id: "ch02-clip02",
           title: "Gems가 뭔가요?",
           type: "개념",
           duration: "~5분",
@@ -596,7 +524,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 </div>`
         },
         {
-          id: "ch02-clip03",
+          id: "ch02-clip02",
           title: "Gems 만드는 법",
           type: "실습",
           duration: "~5분",
@@ -619,7 +547,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 <p style="text-align: center; font-weight: 600; font-size: 18px; margin-top: 30px;">이게 끝입니다. 정말 간단하죠?</p>`
         },
         {
-          id: "ch02-clip04",
+          id: "ch02-clip03",
           title: "내 인생 회고록 작가 Gem",
           type: "실습",
           duration: "~20분",
@@ -737,7 +665,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 </div>`
         },
         {
-          id: "ch02-clip05",
+          id: "ch02-clip04",
           title: "Gems 잘 만드는 비결",
           type: "개념",
           duration: "~5분",
@@ -785,7 +713,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 </div>`
         },
         {
-          id: "ch02-clip06",
+          id: "ch02-clip05",
           title: "Gems 활용 아이디어",
           type: "참고",
           duration: "~3분",
@@ -824,7 +752,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 </div>`
         },
         {
-          id: "ch02-clip07",
+          id: "ch02-clip06",
           title: "2교시 정리",
           type: "개요",
           duration: "~2분",
