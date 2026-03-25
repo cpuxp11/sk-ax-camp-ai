@@ -258,133 +258,37 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
         },
         {
           id: "ch01-clip06",
-          title: "구독 플랜",
-          type: "참고",
-          duration: "~3분",
-          content: `<h2>구독 플랜 — 꼭 돈을 내야 하나요?</h2>
-<p><strong>아닙니다.</strong> 무료로도 충분히 많은 걸 할 수 있습니다.</p>
-<table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">플랜</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">가격</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">뭘 할 수 있나</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">추천 대상</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">무료</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">0원</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">기본 대화, 이미지 생성, 파일 분석</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"일단 써볼래요"</td>
-  </tr>
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">AI Pro</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">월 $20 (약 2.7만원)</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">최고 성능 모델, Deep Research, 더 긴 대화</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"매일 쓸 거예요"</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">AI Ultra</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">월 $250 (약 34만원)</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">최고 한도 + 모든 기능</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"업무에 본격적으로 쓸 거예요"</td>
-  </tr>
-</table>
-
-<div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">팁</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;">오늘 실습: 무료 버전으로도 충분합니다.</p>
-</div>`
-        },
-        {
-          id: "ch01-clip07",
-          title: "프롬프팅 4원칙 실습",
-          type: "실습",
-          duration: "~15분",
-          content: `<h2>프롬프팅 기초 — AI에게 잘 시키는 4가지 방법</h2>
-<p>이론만 배우면 재미없으니까, 직접 해봅시다. <strong>노래 만들기</strong>로 체험하겠습니다.</p>
-
-<h3>먼저, 그냥 시켜봅시다</h3>
-<div data-prompt="노래 하나 만들어줘">
-  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 프롬프트 예시</span>
-      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
-    </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">노래 하나 만들어줘</pre>
-  </div>
-</div>
-<p>→ 뭔가 나오긴 하는데... 내가 원하는 느낌은 아니죠?</p>
-
-<h3>4원칙을 적용하면 이렇게 달라집니다</h3>
-<div data-prompt="너는 신나는 트로트 작곡가야. (← 역할)
-
-나는 올해로 결혼 40주년이야.
-평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
-우리가 처음 만난 곳은 대학교 도서관이고,
-좋아하는 계절은 가을이야. (← 맥락)
-
-아래 조건으로 만들어줘:
-- 장르: 신나는 트로트
-- 길이: 1분 정도
-- 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
-- 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워 (← 형식)
-
-먼저 가사만 보여줘. 내가 확인하고 수정할 부분을 알려줄게.
-가사가 괜찮으면 그 다음에 노래로 만들어줘. (← 단계)">
-  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
-      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 4원칙 프롬프트</span>
-      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
-    </div>
-    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">너는 신나는 트로트 작곡가야. (← 역할)
-
-나는 올해로 결혼 40주년이야.
-평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
-우리가 처음 만난 곳은 대학교 도서관이고,
-좋아하는 계절은 가을이야. (← 맥락)
-
-아래 조건으로 만들어줘:
-- 장르: 신나는 트로트
-- 길이: 1분 정도
-- 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
-- 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워 (← 형식)
-
-먼저 가사만 보여줘. 내가 확인하고 수정할 부분을 알려줄게.
-가사가 괜찮으면 그 다음에 노래로 만들어줘. (← 단계)</pre>
-  </div>
-</div>`
-        },
-        {
-          id: "ch01-clip08",
-          title: "4원칙 정리 + 노래 팁",
+          title: "프롬프팅 4원칙",
           type: "개념",
-          duration: "~5분",
-          content: `<h2>4원칙 정리</h2>
+          duration: "~10분",
+          content: `<h2>프롬프팅 4원칙 — AI에게 잘 시키는 법</h2>
+<p style="font-size: 18px; line-height: 1.8;">AI한테 일을 시킬 때, 이 <strong>4가지</strong>만 기억하시면 됩니다.</p>
+
 <table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">원칙</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">한마디</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">위 프롬프트에서</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">예시</td>
   </tr>
   <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">역할(Role)</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><strong>역할(Role)</strong></td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"너는 OO 전문가야"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"신나는 트로트 작곡가야"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"너는 신나는 트로트 작곡가야"</td>
   </tr>
   <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">맥락(Context)</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><strong>맥락(Context)</strong></td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"상황이 이래"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"결혼 40주년, 도서관, 가을"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"결혼 40주년, 도서관에서 만남, 가을"</td>
   </tr>
   <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">형식(Format)</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><strong>형식(Format)</strong></td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"이런 모양으로"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"트로트, 1분, 2절, 키워드"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"트로트, 1분, 2절, 키워드 포함"</td>
   </tr>
   <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">단계(Step)</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><strong>단계(Step)</strong></td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"순서대로 해줘"</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"가사 먼저 → 확인 → 노래"</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">"가사 먼저 → 확인 → 노래로"</td>
   </tr>
 </table>
 
@@ -394,48 +298,75 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
   <p style="margin: 12px 0 0 0; font-size: 18px; line-height: 1.8;">'<strong>역마 경단</strong>' — 역마살 걸린 경단이라고 외우세요 🍡</p>
 </div>
 
-<h3>다른 노래도 만들어보세요!</h3>
-<ul style="line-height: 1.9; font-size: 19px;">
-  <li>가족한테 보내는 노래</li>
-  <li>내가 좋아하는 노래</li>
-  <li>감사 인사 노래</li>
-</ul>
-
-<div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">팁</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;">만든 노래를 다운로드해서 가족 단톡방에 보내보세요!</p>
-</div>
-
-<h3>프롬프트 잘 쓰는 팁</h3>
-<table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">항목</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">예시</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">장르</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">발라드, 트로트, 동요, 팝, 재즈</td>
-  </tr>
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">분위기</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">신나는, 감동적인, 잔잔한, 웅장한</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">길이</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">30초, 1분, 2분</td>
-  </tr>
-  <tr style="background: #F9FAFB;">
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">가사 키워드</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">이름, 장소, 추억, 좋아하는 것</td>
-  </tr>
-  <tr>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">구조</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">1절/2절, 후렴구, 인트로</td>
-  </tr>
-</table>`
+<p style="font-size: 18px; line-height: 1.8;">이 4가지를 넣어서 시키면, 결과가 완전히 달라집니다. 다음 페이지에서 직접 체험해봅시다!</p>`
         },
         {
-          id: "ch01-clip09",
+          id: "ch01-clip07",
+          title: "4원칙 실습 — 트로트 노래",
+          type: "실습",
+          duration: "~10분",
+          content: `<h2>4원칙 실습 — 트로트 노래 만들기</h2>
+<p style="font-size: 18px; line-height: 1.8;">방금 배운 4원칙을 적용해서, 제미나이한테 트로트 노래를 만들어달라고 시켜봅시다.</p>
+
+<h3>먼저, 그냥 시켜봅시다</h3>
+<div data-prompt="노래 하나 만들어줘">
+  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
+      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 그냥 시키기</span>
+      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
+    </div>
+    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">노래 하나 만들어줘</pre>
+  </div>
+</div>
+<p style="font-size: 18px; line-height: 1.8;">→ 뭔가 나오긴 하는데... 내가 원하는 느낌은 아니죠?</p>
+
+<h3>4원칙을 적용하면 이렇게 달라집니다</h3>
+<p style="font-size: 18px; line-height: 1.8;">아래 프롬프트에서 <strong>본인 상황에 맞게 바꿔서</strong> 입력해보세요.</p>
+<div data-prompt="너는 신나는 트로트 작곡가야.
+
+나는 올해로 결혼 40주년이야.
+평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
+우리가 처음 만난 곳은 대학교 도서관이고,
+좋아하는 계절은 가을이야.
+
+아래 조건으로 만들어줘:
+- 장르: 신나는 트로트
+- 길이: 1분 정도
+- 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
+- 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워
+
+먼저 가사만 보여줘. 내가 확인하고 수정할 부분을 알려줄게.
+가사가 괜찮으면 그 다음에 노래로 만들어줘.">
+  <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; gap: 16px;">
+      <span style="color: #9CA3AF; font-size: 16px; font-weight: 500;">📋 4원칙 적용 프롬프트</span>
+      <button onclick="navigator.clipboard.writeText(this.closest('[data-prompt]').getAttribute('data-prompt')); this.textContent='✅ 복사됨!'; setTimeout(()=>this.textContent='📋 복사하기', 1500);" style="background: #E4002B; color: #FFFFFF; border: none; padding: 14px 22px; border-radius: 8px; cursor: pointer; font-size: 17px; font-weight: 700; min-height: 52px; display: flex; align-items: center; gap: 8px; white-space: nowrap; letter-spacing: 0.2px; transition: background 0.2s;">📋 복사하기</button>
+    </div>
+    <pre style="color: #E5E7EB; font-family: 'Pretendard', sans-serif; white-space: pre-wrap; line-height: 1.9; margin: 0; font-size: 18px;">너는 신나는 트로트 작곡가야. <span style="color: #F59E0B;">← 역할</span>
+
+나는 올해로 결혼 40주년이야.
+평생 함께해준 배우자한테 고마운 마음을 담은 노래를 만들고 싶어.
+우리가 처음 만난 곳은 대학교 도서관이고,
+좋아하는 계절은 가을이야. <span style="color: #F59E0B;">← 맥락</span>
+
+아래 조건으로 만들어줘:
+- 장르: 신나는 트로트
+- 길이: 1분 정도
+- 가사: 2절까지, 후렴구는 쉽게 따라 부를 수 있게
+- 가사에 넣을 키워드: 도서관, 가을, 40년, 고마워 <span style="color: #F59E0B;">← 형식</span>
+
+먼저 가사만 보여줘. 내가 확인하고 수정할 부분을 알려줄게.
+가사가 괜찮으면 그 다음에 노래로 만들어줘. <span style="color: #F59E0B;">← 단계</span></pre>
+  </div>
+</div>
+
+<div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
+  <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">만든 노래를 가족한테 보내보세요!</h3>
+  <p style="margin: 0; font-size: 18px; line-height: 1.8;">다운로드해서 가족 단톡방에 보내면 대화가 시작됩니다. "이거 AI로 만들었어!" 한마디면 끝.</p>
+</div>`
+        },
+        {
+          id: "ch01-clip08",
           title: "역질문",
           type: "개념",
           duration: "~5분",
@@ -471,7 +402,7 @@ https://www.youtube.com/watch?v=xxxxxxx</pre>
 </blockquote>`
         },
         {
-          id: "ch01-clip10",
+          id: "ch01-clip09",
           title: "1교시 정리",
           type: "개요",
           duration: "~2분",
