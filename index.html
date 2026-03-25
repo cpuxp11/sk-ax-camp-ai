@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="가족한테 써먹는 AI — Google Gemini 실전 활용법 LMS" />
+  <meta property="og:title" content="가족한테 써먹는 AI" />
+  <meta property="og:description" content="Google Gemini 실전 활용법 — SK AX Camp" />
+  <meta property="og:type" content="website" />
+
+  <title>가족한테 써먹는 AI — Google Gemini 실전 활용법</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Pretendard 폰트 -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" rel="stylesheet" />
+
+  <!-- JetBrains Mono 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Hamburger Menu (모바일) -->
+  <button class="hamburger" aria-label="메뉴 열기">
+    <span class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <!-- Sidebar Overlay (모바일) -->
+  <div class="sidebar-overlay"></div>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar" role="navigation" aria-label="챕터 네비게이션">
+    <!-- Sidebar Header -->
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <div class="sidebar-logo-text">SK</div>
+        <div>
+          <div class="sidebar-logo-title">가족한테 써먹는 AI</div>
+          <div class="sidebar-logo-sub">Google Gemini 실전 활용법</div>
+        </div>
+      </div>
+      <div class="sidebar-meta">
+        <div class="sidebar-date">2026.03.26</div>
+        <div class="sidebar-location">SK 캠퍼스</div>
+      </div>
+      <button class="sidebar-collapse-btn" aria-label="사이드바 접기">«</button>
+      <button class="sidebar-expand-btn hidden" aria-label="사이드바 펼치기">»</button>
+    </div>
+
+    <!-- Chapters Navigation -->
+    <div class="sidebar-nav">
+      <!-- Chapters will be rendered by app.js -->
+    </div>
+
+    <!-- Sidebar Footer -->
+    <div class="sidebar-footer">
+      <a href="#ch04-clip02" class="sidebar-quick-link">FAQ</a>
+    </div>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main class="main" role="main">
+    <!-- Top Bar -->
+    <div class="main-topbar">
+      <div class="breadcrumb" role="navigation" aria-label="페이지 경로">
+        <a href="#home">홈</a>
+      </div>
+      <div class="font-size-controls">
+        <button class="font-btn" data-size="-1" aria-label="글씨 작게">A−</button>
+        <button class="font-btn active" data-size="0" aria-label="기본 크기">기본</button>
+        <button class="font-btn" data-size="1" aria-label="글씨 크게">A+</button>
+        <button class="font-btn-reset hidden" aria-label="초기화"></button>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+      <!-- Content will be rendered by app.js -->
+    </div>
+  </main>
+
+  <!-- Bottom Navigation (모바일) -->
+  <div class="bottom-nav" role="navigation" aria-label="하단 네비게이션">
+    <button class="bottom-nav-home" aria-label="홈으로 이동">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+      <span>홈</span>
+    </button>
+    <button class="bottom-nav-prev" aria-label="이전 페이지">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+      <span>이전</span>
+    </button>
+    <button class="bottom-nav-next" aria-label="다음 페이지">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+      <span>다음</span>
+    </button>
+  </div>
+
+  <!-- 스크립트 로드 순서: data.js 먼저, app.js 나중 -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+  <!-- No JavaScript Warning -->
+  <noscript>
+    <div style="padding: 40px; text-align: center; background: #fff3cd; color: #856404; font-family: sans-serif;">
+      <strong>알림:</strong> 이 사이트는 JavaScript가 필요합니다. 브라우저 설정을 확인해주세요.
+    </div>
+  </noscript>
+</body>
+</html>
