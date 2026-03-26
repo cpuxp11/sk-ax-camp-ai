@@ -200,7 +200,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
           duration: "~5분",
           content: `<h2>제미나이 접속하기 — 1분 가이드</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Google Gemini" style="width: 48px; height: 48px; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.png" alt="Google Gemini" style="width: 48px; height: auto; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Google Gemini</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">Google의 최신 멀티모달 AI 플랫폼</div>
@@ -217,17 +217,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
 </div>
 
 <div style="background: #F0F7FF; border-left: 4px solid #2563EB; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #2563EB; font-size: 19px; margin-bottom: 10px;">Step 2</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;"><strong>화면 구성:</strong></p>
-  <ul style="margin: 12px 0 0 0; font-size: 18px; line-height: 1.8;">
-    <li>가운데: 입력창 (카카오톡 입력창처럼)</li>
-    <li>왼쪽: 사이드바 (채팅 목록)</li>
-    <li>상단: + 버튼 (파일 첨부)</li>
-  </ul>
-</div>
-
-<div style="background: #FFF8E1; border-left: 4px solid #F59E0B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #F59E0B; font-size: 19px; margin-bottom: 10px;">Step 3 — 첫 대화</h3>
+  <h3 style="margin-top: 0; color: #2563EB; font-size: 19px; margin-bottom: 10px;">Step 2 — 첫 대화</h3>
 </div>
 <div data-prompt="안녕, 나는 오늘 AI를 처음 배우는 사람이야.&#10;반갑게 인사해줘.">
   <div style="background: #1E1E1E; border-radius: 14px; padding: 28px; margin: 28px 0; position: relative;">
@@ -493,6 +483,12 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
   </div>
 </div>
 
+<div style="background: #F0F7FF; border-left: 4px solid #2563EB; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
+  <h3 style="margin-top: 0; color: #2563EB; font-size: 19px; margin-bottom: 10px;">만든 가사를 공유해볼까요?</h3>
+  <p style="margin: 0 0 16px 0; font-size: 18px; line-height: 1.8;">AI가 만들어준 가사를 아래 패들릿에 올려주세요. 다른 분들이 만든 가사도 구경할 수 있습니다!</p>
+  <a href="https://padlet.com/noonoji/sk-ai-uldc9t9j1ucu4szr" target="_blank" style="display: inline-block; background: #2563EB; color: #FFFFFF; padding: 16px 28px; border-radius: 10px; font-size: 18px; font-weight: 700; text-decoration: none; transition: background 0.2s;">패들릿 열기 →</a>
+</div>
+
 <div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
   <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">만든 노래를 가족한테 보내보세요!</h3>
   <p style="margin: 0; font-size: 18px; line-height: 1.8;">다운로드해서 가족 단톡방에 보내면 대화가 시작됩니다. "이거 AI로 만들었어!" 한마디면 끝.</p>
@@ -637,7 +633,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
           duration: "~5분",
           content: `<h2>Gems 만드는 법 — 3단계</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: 48px; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: auto; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Gemini Gems</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">나만의 맞춤 AI 어시스턴트를 만드는 기능</div>
@@ -670,7 +666,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
 <p>은퇴 후 인생을 돌아보며 글 정리. AI에게 "인생 회고록 전문 작가" 역할을 주면, 대화하듯 이야기하는 것만으로 멋진 회고록이 만들어집니다.</p>
 
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: 48px; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: auto; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Gemini Gems</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">실습 플랫폼 — Gems(나만의 AI 어시스턴트)를 직접 만들고 테스트합니다</div>
@@ -1057,7 +1053,7 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
           duration: "~5분",
           content: `<h2>AI Studio 접속하기</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Google AI Studio" style="width: 48px; height: 48px; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.png" alt="Google AI Studio" style="width: 48px; height: auto; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Google AI Studio</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">코딩 없이 AI 앱을 만드는 노코드 플랫폼</div>
