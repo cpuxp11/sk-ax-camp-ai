@@ -653,10 +653,22 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
   <h3 style="margin-top: 0; color: #2563EB; font-size: 19px; margin-bottom: 10px;">Step 2</h3>
   <p style="margin: 0; font-size: 18px; line-height: 1.8;">"+ 새 Gem" 클릭</p>
 </div>
+<div style="margin: 24px 0; text-align: center;">
+  <img src="assets/screenshots/gems-new-gem.png" alt="+ 새 Gem 버튼" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">"내 Gems" 옆의 "+ 새 Gem" 버튼을 클릭합니다</p>
+</div>
 
 <div style="background: #FFF0F0; border-left: 4px solid #E4002B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
   <h3 style="margin-top: 0; color: #E4002B; font-size: 19px; margin-bottom: 10px;">Step 3</h3>
   <p style="margin: 0; font-size: 18px; line-height: 1.8;">이름, 설명, 요청사항(시스템 인스트럭션) 입력 → "저장"</p>
+</div>
+<div style="margin: 24px 0; text-align: center;">
+  <img src="assets/screenshots/gems-setup.png" alt="Gem 설정 화면" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">이름, 설명, 요청사항을 입력합니다</p>
+</div>
+<div style="margin: 24px 0; text-align: center;">
+  <img src="assets/screenshots/gems-save.png" alt="저장 버튼" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">오른쪽 위 "저장" 버튼을 누르면 완성!</p>
 </div>
 
 <p style="text-align: center; font-weight: 600; font-size: 18px; margin-top: 30px;">이게 끝입니다. 정말 간단하죠?</p>`
