@@ -200,7 +200,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
           duration: "~5분",
           content: `<h2>제미나이 접속하기 — 1분 가이드</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Google Gemini" style="width: 48px; height: auto; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.svg" alt="Google Gemini" style="width: 36px; height: 36px; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Google Gemini</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">Google의 최신 멀티모달 AI 플랫폼</div>
@@ -633,7 +633,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
           duration: "~5분",
           content: `<h2>Gems 만드는 법 — 3단계</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: auto; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.svg" alt="Gemini Gems" style="width: 36px; height: 36px; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Gemini Gems</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">나만의 맞춤 AI 어시스턴트를 만드는 기능</div>
@@ -682,7 +682,7 @@ https://www.youtube.com/watch?v=Ll0oAYdzDAk</pre>
 <p>은퇴 후 인생을 돌아보며 글 정리. AI에게 "인생 회고록 전문 작가" 역할을 주면, 대화하듯 이야기하는 것만으로 멋진 회고록이 만들어집니다.</p>
 
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Gemini Gems" style="width: 48px; height: auto; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.svg" alt="Gemini Gems" style="width: 36px; height: 36px; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Gemini Gems</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">실습 플랫폼 — Gems(나만의 AI 어시스턴트)를 직접 만들고 테스트합니다</div>
@@ -1065,7 +1065,7 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
           duration: "~5분",
           content: `<h2>AI Studio 접속하기</h2>
 <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 16px; padding: 24px 28px; margin: 28px 0; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="assets/gemini-logo.png" alt="Google AI Studio" style="width: 48px; height: auto; flex-shrink: 0;" />
+  <img src="assets/gemini-logo.svg" alt="Google AI Studio" style="width: 36px; height: 36px; flex-shrink: 0;" />
   <div style="flex: 1; min-width: 200px;">
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Google AI Studio</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">코딩 없이 AI 앱을 만드는 노코드 플랫폼</div>
