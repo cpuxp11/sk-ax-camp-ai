@@ -1022,8 +1022,21 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
           type: "개념",
           duration: "~10분",
           content: `<h2>AI Studio가 뭔가요?</h2>
-<p>Gems가 "AI의 성격"을 정하는 거라면, AI Studio는 "나만의 AI 도구"를 만드는 곳입니다.</p>
 
+<h3>2교시에서 만든 Gems, 기억나시죠?</h3>
+<p style="font-size: 18px; line-height: 1.9;">Gems는 AI에게 <strong>"너는 회고록 작가야"</strong>라고 성격을 정해주는 거였습니다. 대화는 잘 되지만, 할 수 있는 건 '대화'까지입니다.</p>
+
+<p style="font-size: 18px; line-height: 1.9;">AI Studio는 한 단계 더 나갑니다. 대화뿐 아니라 <strong>실시간으로 인터넷을 검색하고, 도구를 연결하고, 나만의 AI 앱</strong>을 만들 수 있습니다.</p>
+
+<div style="background: #FFF8E1; border-left: 4px solid #F59E0B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
+  <h3 style="margin-top: 0; color: #F59E0B; font-size: 19px; margin-bottom: 10px;">한 줄 정리</h3>
+  <p style="margin: 0; font-size: 18px; line-height: 1.8;">
+    <strong>Gems</strong> = AI에게 명함을 주는 것 (성격 설정)<br>
+    <strong>AI Studio</strong> = AI 직원을 채용해서 업무 매뉴얼까지 주는 것 (도구 제작)
+  </p>
+</div>
+
+<h3>Gems와 AI Studio, 뭐가 다른가요?</h3>
 <table style="width: 100%; border-collapse: collapse; margin: 28px 0;">
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7; font-weight: bold;">구분</td>
@@ -1038,24 +1051,64 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">할 수 있는 것</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">대화 스타일 설정</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">대화 + 실시간 검색 + 도구 연결</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">대화 + <strong>실시간 검색</strong> + 도구 연결</td>
   </tr>
   <tr>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">난이도</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">쉬움</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">쉬움~중간 (그래도 코딩 필요 없음!)</td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">쉬움~중간 (코딩 필요 없음!)</td>
   </tr>
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">접속</td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><a href="https://gemini.google.com" target="_blank" style="color: #2563EB; text-decoration: underline;">gemini.google.com</a> → Gems</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><a href="https://aistudio.google.com" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a></td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><a href="https://aistudio.google.com/apps" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a></td>
   </tr>
 </table>
 
-<div style="background: #FFF8E1; border-left: 4px solid #F59E0B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
-  <h3 style="margin-top: 0; color: #F59E0B; font-size: 19px; margin-bottom: 10px;">바이브 코딩(Vibe Coding)이란?</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;">코딩을 몰라도 됩니다. 말로 설명하면 됩니다. 요즘 이걸 '바이브 코딩(Vibe Coding)'이라고 부릅니다.</p>
-  <p style="margin: 15px 0 0 0; font-size: 18px; line-height: 1.8;">원래 코딩은 개발자만 할 수 있는 전문 작업이었는데, AI가 등장하면서 '이런 느낌으로 만들어줘'라고 말하면 AI가 대신 코딩을 해주는 시대가 된 겁니다.</p>
+<h3>AI Studio에서는 이런 걸 만들 수 있습니다</h3>
+<p style="font-size: 18px; line-height: 1.9;">오늘 3교시에서 직접 만들어볼 것들입니다:</p>
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 1; min-width: 200px; background: #FFF0F0; border-radius: 12px; padding: 20px; border: 1px solid #FECACA;">
+    <div style="font-size: 28px; margin-bottom: 8px;">💬</div>
+    <div style="font-size: 17px; font-weight: 700; color: #1F2937; margin-bottom: 6px;">와이프 번역기</div>
+    <div style="font-size: 15px; color: #6B7280; line-height: 1.6;">"괜찮아"의 진짜 뜻을 알려주는 AI</div>
+  </div>
+  <div style="flex: 1; min-width: 200px; background: #ECFDF5; border-radius: 12px; padding: 20px; border: 1px solid #A7F3D0;">
+    <div style="font-size: 28px; margin-bottom: 8px;">⛳</div>
+    <div style="font-size: 17px; font-weight: 700; color: #1F2937; margin-bottom: 6px;">골프 캐디 AI</div>
+    <div style="font-size: 15px; color: #6B7280; line-height: 1.6;">코스 공략 + 클럽 추천해주는 AI</div>
+  </div>
+  <div style="flex: 1; min-width: 200px; background: #F0F7FF; border-radius: 12px; padding: 20px; border: 1px solid #BFDBFE;">
+    <div style="font-size: 28px; margin-bottom: 8px;">📈</div>
+    <div style="font-size: 17px; font-weight: 700; color: #1F2937; margin-bottom: 6px;">주가 분석기</div>
+    <div style="font-size: 15px; color: #6B7280; line-height: 1.6;">관심 종목 시세를 쉽게 설명해주는 AI</div>
+  </div>
+</div>
+
+<div style="margin: 24px 0; text-align: center;">
+  <img src="assets/screenshots/aistudio-playground.png" alt="AI Studio 화면" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">Google AI Studio — 왼쪽의 "Build" 메뉴에서 나만의 AI 도구를 만듭니다</p>
+</div>
+
+<div style="background: #F5F0FF; border-left: 4px solid #7C3AED; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
+  <h3 style="margin-top: 0; color: #7C3AED; font-size: 19px; margin-bottom: 14px;">바이브 코딩(Vibe Coding)이란?</h3>
+  <p style="margin: 0 0 16px 0; font-size: 18px; line-height: 1.9;"><strong>코딩을 몰라도 됩니다.</strong> 원래 코딩은 개발자만 할 수 있는 전문 작업이었습니다.</p>
+  <p style="margin: 0 0 16px 0; font-size: 18px; line-height: 1.9;">그런데 AI가 등장하면서, <strong>"이런 느낌으로 만들어줘"</strong>라고 말하면 AI가 대신 코딩을 해주는 시대가 됐습니다. 요즘 이걸 <strong>'바이브 코딩(Vibe Coding)'</strong>이라고 부릅니다.</p>
+  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+    <div style="flex: 1; min-width: 200px; background: #FEF2F2; border-radius: 10px; padding: 16px;">
+      <div style="font-size: 14px; font-weight: 700; color: #DC2626; margin-bottom: 8px;">예전에는</div>
+      <p style="margin: 0; font-size: 16px; line-height: 1.7; color: #374151;">개발자한테 의뢰 → 몇 주 기다림 → 수정 요청 → 또 기다림</p>
+    </div>
+    <div style="flex: 1; min-width: 200px; background: #F0FDF4; border-radius: 10px; padding: 16px;">
+      <div style="font-size: 14px; font-weight: 700; color: #16A34A; margin-bottom: 8px;">지금은</div>
+      <p style="margin: 0; font-size: 16px; line-height: 1.7; color: #374151;">AI한테 말로 설명 → 바로 만들어줌 → 수정도 말로 → 바로 반영</p>
+    </div>
+  </div>
+</div>
+
+<div style="background: #FFF0F0; border-left: 4px solid #E4002B; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
+  <h3 style="margin-top: 0; color: #E4002B; font-size: 19px; margin-bottom: 10px;">핵심</h3>
+  <p style="margin: 0; font-size: 18px; line-height: 1.8;">AI Studio에서 만든 도구는 <strong>링크 하나로 공유</strong>할 수 있습니다. 가족한테 보내서 같이 쓸 수 있다는 뜻입니다.</p>
 </div>`
         },
         {
@@ -1070,15 +1123,19 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
     <div style="font-size: 20px; font-weight: 700; color: #1F2937;">Google AI Studio</div>
     <div style="font-size: 16px; color: #6B7280; margin-top: 4px;">코딩 없이 AI 앱을 만드는 노코드 플랫폼</div>
   </div>
-  <a href="https://aistudio.google.com" target="_blank" style="color: #2563EB; font-size: 17px; font-weight: 600; text-decoration: none; white-space: nowrap;">aistudio.google.com →</a>
+  <a href="https://aistudio.google.com/apps" target="_blank" style="color: #2563EB; font-size: 17px; font-weight: 600; text-decoration: none; white-space: nowrap;">aistudio.google.com →</a>
 </div>
 <div style="margin: 24px 0; text-align: center;">
   <img src="assets/screenshots/aistudio-main.png" alt="AI Studio 메인 화면" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
-  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">Google AI Studio 메인 화면</p>
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">Google AI Studio 메인 화면 — 왼쪽 "Build" 클릭</p>
+</div>
+<div style="margin: 24px 0; text-align: center;">
+  <img src="assets/screenshots/aistudio-build.png" alt="AI Studio Build 화면" style="max-width: 100%; border-radius: 12px; border: 1px solid #E5E7EB; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <p style="font-size: 15px; color: #9CA3AF; margin-top: 10px;">Build 화면 — 여기서 "Describe an app"에 말로 설명하면 AI가 만들어줍니다</p>
 </div>
 <div style="background: #ECFDF5; border-left: 4px solid #059669; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
   <h3 style="margin-top: 0; color: #059669; font-size: 19px; margin-bottom: 10px;">Step 1</h3>
-  <p style="margin: 0; font-size: 18px; line-height: 1.8;"><a href="https://aistudio.google.com" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a> 접속 → 구글 로그인</p>
+  <p style="margin: 0; font-size: 18px; line-height: 1.8;"><a href="https://aistudio.google.com/apps" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a> 접속 → 구글 로그인</p>
 </div>
 
 <div style="background: #F0F7FF; border-left: 4px solid #2563EB; padding: 26px 30px; margin: 28px 0; border-radius: 10px;">
@@ -1661,7 +1718,7 @@ Day별 → 시간대별(오전/점심/오후/저녁) → 추천 이유 + 이동 
   </tr>
   <tr style="background: #F9FAFB;">
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">AI Studio</td>
-    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><a href="https://aistudio.google.com" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a></td>
+    <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;"><a href="https://aistudio.google.com/apps" target="_blank" style="color: #2563EB; text-decoration: underline;">aistudio.google.com</a></td>
     <td style="padding: 18px 16px; border: 1px solid #E5E7EB; font-size: 17px; line-height: 1.7;">나만의 AI 도구 만들기</td>
   </tr>
   <tr>
